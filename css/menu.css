@@ -165,7 +165,27 @@ li .drop:hover .dropdown-content {
 
 /* ------------------Riga 2--------------- */
 .Item4 {
-    flex-basis: 50%;
+    flex-basis: 100%;
     padding-top: 150px;
     font-size: 30px;
+}
+
+.Item4 h2 {
+    width: 800px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.Item4 .radio_button {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.Item4 .radio_button1 {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.Item4 span{
+    font-size: 15px;
 }
