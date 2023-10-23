@@ -6,6 +6,94 @@
 }
 
 :root {
-    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+}
+
+/* ------------------------------Stili pagina header-------------------------------------------------------- */
+
+.containerSup {
+    height: 50px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.containerSup ul {
+    list-style-type: none; 
+    display: flex;
+}
+
+.containerSup ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+.containerSup .Left {
+    padding-left: 50%;
+}
+
+.containerSup .botton {
+    background-color: rgb(55, 55, 252);
+    padding: 5px;
+}
+
+
+.containerSup a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.containerSup a:active {
+    color: white;
+  }
+
+/* ------------------------------Stili pagina main-------------------------------------------------------- */
+.containerCen {
+    height: calc(100vh - 50px);
+    background-color: white;
+    overflow: auto; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+
+/* ------------------Titolo--------------- */
+.Item1 {
+    flex-basis: 100%;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(124, 185, 206);
+}
+
+/* ------------------Riga 1--------------- */
+.Item2 {
+    flex-basis: 50%;
+    height: 400px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(124, 185, 206);
+}
+
+.Item3 {
+    flex-basis: 50%;
+    height: 400px;
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color: rgb(124, 185, 206);
+}
+
+.Item3 img {
+    width:100%;
+    
+}
+
+.Item4 {
+    flex-basis: 50%;
+    padding-top: 150px;
+    font-size: 30px;
 }
