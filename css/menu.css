@@ -103,20 +103,52 @@ li .drop:hover .dropdown-content {
 /* ------------------Titolo--------------- */
 .Item1 {
     flex-basis: 100%;
-    padding: 10px 10px;
-    font-size: 30px;
-    text-align: center;
+    font-size: 25px;
     background-color: rgb(124, 185, 206);
+    padding: 10px 10px;
+}
+
+.Item1 h1 {
+    width: 900px;
+    text-align: center;
+    margin-left: 20%;
 }
 
 /* ------------------Riga 1--------------- */
 .Item2 {
     flex-basis: 50%;
     height: 400px;
-    font-size: 30px;
-    text-align: center;
+    text-align: left;
     background-color: rgb(124, 185, 206);
 }
+.Item2 .box {
+    padding-top: 10px;
+    margin-left: 600px;
+    font-size: 15px;
+    height: 300px;
+    width: 350px;
+}
+
+.Item2 .box .col {
+    margin: 50px 0px 50px 0px;
+}
+
+.Item2 .box  a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(55, 55, 252);
+    padding: 10px 15px 10px 15px;
+}
+
+.Item2 .box .fa-arrow-down {
+    font-size: 40px;
+    margin-top: 80px;
+    display: block;
+}
+
+.containerCen .Item2 a:active {
+    color: black;
+  }
 
 .Item3 {
     flex-basis: 50%;
@@ -127,10 +159,11 @@ li .drop:hover .dropdown-content {
 }
 
 .Item3 img {
-    width:100%;
+    width:90%;
     
 }
 
+/* ------------------Riga 2--------------- */
 .Item4 {
     flex-basis: 50%;
     padding-top: 150px;
