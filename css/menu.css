@@ -104,7 +104,7 @@ li .drop:hover .dropdown-content {
 .Item1 {
     flex-basis: 100%;
     font-size: 25px;
-    background-color: rgb(180, 208, 231);
+    background-color: rgb(124, 185, 206);
     padding: 10px 10px;
 }
 
@@ -119,7 +119,7 @@ li .drop:hover .dropdown-content {
     flex-basis: 50%;
     height: 400px;
     text-align: left;
-    background-color: rgb(180, 208, 231);
+    background-color: rgb(124, 185, 206);
 }
 .Item2 .box {
     padding-top: 10px;
@@ -155,7 +155,7 @@ li .drop:hover .dropdown-content {
     height: 400px;
     padding: 10px 10px;
     font-size: 30px;
-    background-color: rgb(180, 208, 231);
+    background-color: rgb(124, 185, 206);
 }
 
 .Item3 img {
@@ -173,19 +173,126 @@ li .drop:hover .dropdown-content {
 .Item4 h2 {
     width: 800px;
     text-align: center;
-    margin-left: 20%;
+    margin-left: 310px;
 }
 
 .Item4 .radio_button {
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 340px;
 }
 
 .Item4 .radio_button1 {
     display: inline-block;
-    margin-left: 2%;
+ 
 }
 
 .Item4 span{
     font-size: 15px;
+}
+
+/* ------------------Riga 3--------------- */
+.Item5 {
+    flex-basis: 100%;
+    padding-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Item5 .col1 {
+    width: 400px;
+    height: 800px;
+    font-size: 15px; 
+    border: 1px solid gainsboro;
+    flex-basis: 10%;
+    margin-left: 20px;
+}
+
+.Item5 .SubCol1 {
+    width: 399px;
+    height: 50px;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 0px 10px 160px;
+}
+
+.Item5 ul {
+    list-style-type: none;
+} 
+
+.Item5 ul h5 {
+    font-size: 20px;
+}
+
+.Item5 ul h7{
+    font-weight: bold;
+}
+
+.Item5 li {
+    text-align: left;
+    margin: 10px 0px 5px 10px;
+    width: 350px;
+    position: relative;
+}
+
+.Item5 li p{
+    width: 240px;
+   text-align: left;
+   margin-left: 25px;
+}
+
+#icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+}
+
+.Item5 li .fa-check{
+    color: rgb(0, 97, 255);
+}
+
+.Item5 .bottom1 {
+    padding-top: 20%;
+}
+
+.Item5 li .button1{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(55, 55, 252);
+    padding: 10px 65px 10px 65px;
+    margin-left: 40px;
+}
+
+.Item5 li .button2 {
+    color: black;
+    left: 15%;
+    margin-top: 40px;
+}
+
+.Item5 li .button2 a{
+    color: blue;
+}
+.Item5 li .button2 .rect {
+    background-color: lightgrey;
+    width: 60px;
+    height: 1px;
+    margin: 20px 0px 20px 0px;
+}
+
+.Item5 li a:active {
+    color: black;
+}
+
+/* ------------------Riga 4--------------- */
+.Item6 {
+    flex-basis: 100%;
+    font-size: 30px;
+}
+
+.Item6 .col2 {
+    width: 600px;
+    height: 500px;
+    background-color: red;
+    border-bottom: 1px solid gainsboro;
+    display: inline-block;
 }
