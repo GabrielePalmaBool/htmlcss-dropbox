@@ -344,3 +344,56 @@ li .drop:hover .dropdown-content {
 .Item6 li a:active {
     color: black;
 }
+
+/* ------------------Riga 5--------------- */
+.Item7 {
+    flex-basis: 50%;
+    padding-top: 150px;
+}
+
+.Item7 img {
+    width: 600px;
+    margin-left: 342px;
+}
+
+.Item8 {
+    flex-basis: 50%;
+    font-size: 15px;
+    padding: 150px 0px 50px 0px;
+}
+
+.Item8 .box{
+    width: 280px;
+    margin: 40px 0px 0px 150px;
+}
+
+.Item8 p {
+    margin: 40px 0px 40px 0px;
+} 
+
+.Item8 .box a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 200px;
+}
+
+.Item8 .box a:active {
+    color: white;
+}
+
+/* ------------------Riga 6--------------- */
+.Item9 {
+    flex-basis: 100%;
+    padding-top: 150px;
+    font-size: 30px;
+}
+
+.Item9 h2 {
+    width: 1200px;
+    text-align: center;
+    margin-left: 205px;
+}
