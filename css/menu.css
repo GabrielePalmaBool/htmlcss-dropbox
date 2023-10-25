@@ -116,14 +116,14 @@ li .drop:hover .dropdown-content {
 
 /* ------------------Riga 1--------------- */
 .Item2 {
-    flex-basis: 50%;
+    flex-basis: 30%;
     height: 400px;
     text-align: left;
     background-color: rgb(124, 185, 206);
 }
 .Item2 .box {
     padding-top: 10px;
-    margin-left: 600px;
+    margin-left: 200px;
     font-size: 15px;
     height: 300px;
     width: 350px;
@@ -151,7 +151,7 @@ li .drop:hover .dropdown-content {
   }
 
 .Item3 {
-    flex-basis: 50%;
+    flex-basis: 70%;
     height: 400px;
     padding: 10px 10px;
     font-size: 30px;
@@ -159,7 +159,8 @@ li .drop:hover .dropdown-content {
 }
 
 .Item3 img {
-    width:90%;
+    width:1200px;
+    height: 470px;
 }
 
 /* ------------------Riga 2--------------- */
@@ -410,7 +411,6 @@ li .drop:hover .dropdown-content {
     width: 300px;
     padding: 10px 10px;
     display: inline-block;
-    
 }
 
 .Item10 .secondo, .terzo, .quinto, .sesto {
@@ -439,8 +439,7 @@ li .drop:hover .dropdown-content {
 /* ------------------Riga 8--------------- */
 .Item11 {
     flex-basis: 100%;
-    padding-top: 100px;
-    padding-left: 342px;
+    padding: 100px 0px 100px 342px;
 }
 
 .Item11 h2 {
@@ -452,7 +451,7 @@ li .drop:hover .dropdown-content {
 .Item11 a{
     color: blue;
     cursor: pointer;
-    margin-bottom: 200px;
+
 }
 
 .Item11 a:active {
@@ -462,6 +461,325 @@ li .drop:hover .dropdown-content {
 /* ------------------Riga 9--------------- */
 .Item12 {
     flex-basis: 100%;
-    padding-top: 100px;
-    background-color: aquamarine;
+    position: relative;
+}
+
+.Item12 .box{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.Item12 .box img {
+    width: 60%;
+}
+
+.Item12 .ContainerInt{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    background-color: rgb(245,245,245);
+    top: 0;
+    left: 600px;
+}
+
+/*------------- primo logo ---------------------*/
+.Item12 .uno{
+    top: 0;
+    left: 200px;
+    background-color: rgb(162,211,155);
+}
+
+ .Item12 .uno .Logo1{
+    margin: 80px 40px;
+}
+
+.Item12 .uno .shadow_content{
+    display: none;
+    top: 0;
+    left: 400px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .uno p {
+    margin-left:40px;
+    width: 480px;
+} 
+
+.Item12 .uno .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.uno:hover .shadow_content{
+    display: inline-block;
+}  
+
+.uno:hover {
+    box-shadow: inset 0 0 0 5px rgb(209,233,205);
+}
+
+/*------------- secondo logo ---------------------*/
+.Item12 .due{
+    top: 0;
+    left: 400px;
+    background-color: rgb(97,8,43);  
+}
+
+.Item12 .due img {
+    margin: 50px 50px;
+   
+}
+
+.Item12 .due .shadow_content{
+    display: none;
+    top: 0;
+    left: 200px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .due p {
+    margin-left:40px;
+    width: 480px;
+} 
+.Item12 .due .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.due:hover .shadow_content{
+    display: inline-block;
+} 
+
+.due:hover {
+    box-shadow: inset 0 0 0 5px rgb(96,65,69);
+}
+
+/*------------- terzo logo ---------------------*/
+.Item12 .tre{
+    top: 200px;
+    left: 200px;
+    background-color: rgb(0,147,206);
+}
+
+.Item12 .tre img {
+    margin: 80px 40px;
+}
+
+.Item12 .tre .shadow_content{
+    display: none;
+    bottom: 150px;
+    left: 400px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .tre p {
+    margin-left:40px;
+    width: 480px;
+} 
+.Item12 .tre .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.tre:hover .shadow_content{
+    display: inline-block;
+} 
+
+.tre:hover {
+    box-shadow: inset 0 0 0 5px rgb(124,180,204);
+}
+/*------------- quarto logo ---------------------*/
+.Item12 .quattro{
+    top: 200px;
+    left: 400px;
+    background-color: rgb(255,28,28);
+}
+
+.Item12 .quattro img {
+    margin: 60px 50px;
+}
+
+.Item12 .quattro .shadow_content{
+    display: none;
+    bottom: 120px;
+    left: 200px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .quattro p {
+    margin-left:40px;
+    width: 480px;
+} 
+.Item12 .quattro .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.quattro:hover .shadow_content{
+    display: inline-block;
+} 
+
+.quattro:hover {
+    box-shadow: inset 0 0 0 5px rgb(255,195,191);
+}
+/*------------- quinto logo ---------------------*/
+.Item12 .cinque{
+    top: 0px;
+    left: 1200px;
+    background-color: rgb(213,0,31);
+}
+
+.Item12 .cinque img {
+    margin: 70px 40px;
+}
+
+.Item12 .cinque .shadow_content{
+    display: none;
+    top: 0px;
+    right: 200px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .cinque p {
+    margin-left:40px;
+    width: 480px;
+} 
+.Item12 .cinque .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.cinque:hover .shadow_content{
+    display: inline-block;
+} 
+
+.cinque:hover {
+    box-shadow: inset 0 0 0 5px rgb(255,195,191);
+}
+/*------------- sesto logo ---------------------*/
+.Item12 .sei{
+    top: 0px;
+    left: 1400px;
+    background-color: rgb(180,208,231);
+}
+
+.Item12 .sei img {
+    margin: 90px 40px;
+}
+
+.Item12 .sei .shadow_content{
+    display: none;
+    top: 20px;
+    right: 400px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .sei p {
+    margin-left:40px;
+    width: 480px;
+} 
+.Item12 .sei .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.sei:hover .shadow_content{
+    display: inline-block;
+} 
+
+.sei:hover {
+    box-shadow: inset 0 0 0 5px rgb(206,221,229);
+}
+/*------------- settimo logo ---------------------*/
+.Item12 .sette{
+    top: 200px;
+    left: 1200px;
+    background-color: rgb(13,36,129);
+}
+
+.Item12 .sette img {
+    margin: 65px 40px;
+}
+
+.Item12 .sette .shadow_content{
+    display: none;
+    bottom: 120px;
+    right: 200px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .sette p {
+    margin-left:40px;
+    width: 480px;
+} 
+.Item12 .sette .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.sette:hover .shadow_content{
+    display: inline-block;
+} 
+
+.sette:hover {
+    box-shadow: inset 0 0 0 5px rgb(100,102,127);
+}
+/*------------- ottavo logo ---------------------*/
+.Item12 .otto{
+    top: 200px;
+    left: 1400px;
+    background-color: rgb(255,216,48);
+}
+
+.Item12 .otto img {
+    margin: 65px 40px;
+}
+
+.Item12 .otto .shadow_content{
+    display: none;
+    bottom: 100px;
+    right: 400px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+}
+
+.Item12 .otto p {
+    margin-left:40px;
+    width: 480px;
+} 
+.Item12 .otto .LogoCent {
+    margin: 70px 0px 20px 40px;
+    width: 20%;
+}
+
+/* quando ci passo sopra con il mouse */
+.otto:hover .shadow_content{
+    display: inline-block;
+} 
+
+.otto:hover {
+    box-shadow: inset 0 0 0 5px rgb(255,235,163);
 }
