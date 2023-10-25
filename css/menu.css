@@ -462,6 +462,7 @@ li .drop:hover .dropdown-content {
 .Item12 {
     flex-basis: 100%;
     position: relative;
+    height: 400px;
 }
 
 .Item12 .box{
@@ -782,4 +783,32 @@ li .drop:hover .dropdown-content {
 
 .otto:hover {
     box-shadow: inset 0 0 0 5px rgb(255,235,163);
+}
+
+/* ------------------Riga 10--------------- */
+.Item13 {
+    flex-basis: 100%;
+    padding: 100px 0px 100px 342px;
+    background-color: rgb(180, 208, 231);
+}
+
+.Item13 h2 {
+    font-size: 25px;
+    width: 400px;
+    margin-bottom: 50px;
+    color: rgb(97, 8, 43);
+    display: inline-block;
+}
+
+.Item13 a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 0px 730px;
+}
+
+.Item13 a:active {
+    color: white;
 }
