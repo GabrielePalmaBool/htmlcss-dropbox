@@ -125,7 +125,6 @@ li .drop:hover .dropdown-content {
 .Item2 .box {
     left: 20%;
     font-size: 15px;
-    height: 300px;
     width: 350px;
     position: absolute;
 }
@@ -212,17 +211,15 @@ li .drop:hover .dropdown-content {
 }
 
 .Item5 .col1 {
-    height: 1000px;
-    width: 400px;
     font-size: 15px; 
     border: 1px solid gainsboro;
     margin-left: 20px;
 }
 
 .Item5 .SubCol1 {
-    height: 50px;
     border-bottom: 1px solid gainsboro;
-    padding: 10px 0px 10px 160px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
 }
 
 .Item5 ul {
@@ -244,7 +241,6 @@ li .drop:hover .dropdown-content {
 }
 
 .Item5 .vert p{
-   width: 240px;
    text-align: left;
    margin: 0px 0px 20px 25px;
 }
@@ -296,8 +292,6 @@ li .drop:hover .dropdown-content {
 
 /* ---------Colonna orizzontale--------------- */
 .Item5 .col2 {
-    width: 1240px;
-    height: 300px;
     border: 1px solid gainsboro;
     margin: 20px 0px 20px 20px;
 }
