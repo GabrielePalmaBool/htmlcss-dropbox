@@ -216,10 +216,11 @@ li .drop:hover .dropdown-content {
     margin-left: 20px;
 }
 
-.Item5 .SubCol1 {
+.Item5 .SubCol {
     border-bottom: 1px solid gainsboro;
     padding: 10px 0px 10px 0px;
     text-align: center;
+    font-size: 20px;
 }
 
 .Item5 ul {
@@ -296,13 +297,6 @@ li .drop:hover .dropdown-content {
     margin: 20px 0px 20px 20px;
 }
 
-.Item5 .SubCol2 {
-    width: 1239px;
-    height: 50px;
-    border-bottom: 1px solid gainsboro;
-    padding: 10px 0px 10px 600px;
-}
-
 .Item5 .orz {
     padding: 30px;
 }
@@ -318,7 +312,7 @@ li .drop:hover .dropdown-content {
     cursor: pointer;
     background-color: rgb(55, 55, 252);
     padding: 10px 65px 10px 65px;
-    margin-left: 630px;
+    margin-left: 730px;
 }
 
 .Item5 .bottom {
