@@ -235,10 +235,6 @@ li .drop:hover .dropdown-content {
     font-size: 20px;
 }
 
-.Item5 .vert h7{
-    margin-bottom: 20px;
-    font-weight: bold;
-}
 
 .Item5 .vert li {
     text-align: left;
@@ -248,14 +244,13 @@ li .drop:hover .dropdown-content {
 }
 
 .Item5 .vert p{
-    width: 240px;
+   width: 240px;
    text-align: left;
    margin: 0px 0px 20px 25px;
 }
 
-#icon {
+.Item5 .vert i{
     position: absolute;
-    top: 0;
     left: 0;
     font-size: 17px;
 }
