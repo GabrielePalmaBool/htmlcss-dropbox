@@ -202,25 +202,25 @@ li .drop:hover .dropdown-content {
     font-size: 15px;
 }
 
-/* ------------------Riga 3--------------- */
+/* ------------------Riga 3/4--------------- */
 .Item5 {
     padding-top: 50px;
     flex-basis: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
 }
 
 .Item5 .col1 {
-    
     height: 1000px;
+    width: 400px;
     font-size: 15px; 
     border: 1px solid gainsboro;
-    flex-basis: 10%;
     margin-left: 20px;
 }
 
 .Item5 .SubCol1 {
-    width: 399px;
+    
     height: 50px;
     border-bottom: 1px solid gainsboro;
     padding: 10px 0px 10px 160px;
@@ -231,24 +231,24 @@ li .drop:hover .dropdown-content {
     margin: 20px;
 } 
 
-.Item5 ul h5 {
+.Item5 .vert h5 {
+    margin-bottom: 20px;
     font-size: 20px;
-    margin-bottom: 20px;
 }
 
-.Item5 ul h7{
+.Item5 .vert h7{
+    margin-bottom: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
-.Item5 li {
+.Item5 .vert li {
     text-align: left;
     margin: 10px 0px 5px 10px;
     width: 350px;
     position: relative;
 }
 
-.Item5 li p{
+.Item5 .vert p{
     width: 240px;
    text-align: left;
    margin: 0px 0px 20px 25px;
@@ -261,15 +261,15 @@ li .drop:hover .dropdown-content {
     font-size: 17px;
 }
 
-.Item5 li .fa-check{
+.Item5 .vert .fa-check{
     color: rgb(0, 97, 255);
 }
 
-.Item5 .bottom1 {
+.Item5 .vert .bottom1 {
     padding-top: 20%;
 }
 
-.Item5 li .button1{
+.Item5 .vert .button1{
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -278,85 +278,72 @@ li .drop:hover .dropdown-content {
     margin-left: 40px;
 }
 
-.Item5 li .button2 {
+.Item5 .vert .button2 {
     color: black;
     cursor: pointer;
     left: 15%;
     margin-top: 40px;
 }
 
-.Item5 li .button2 a{
+.Item5 .vert .button2 a{
     color: blue;
 }
-.Item5 li .button2 .rect {
+.Item5 .vert .button2 .rect {
     background-color: lightgrey;
     width: 60px;
     height: 1px;
     margin: 20px 0px 20px 0px;
 }
 
-.Item5 li a:active {
+.Item5 .vert a:active {
     color: black;
 }
 
-/* ------------------Riga 4--------------- */
-.Item6 {
-    flex-basis: 100%;
-    font-size: 15px;
-}
 
-.Item6 .col2 {
-    width: 1245px;
+/* ---------Colonna orizzontale--------------- */
+.Item5 .col2 {
+    width: 1240px;
     height: 300px;
     border: 1px solid gainsboro;
-    display: inline-block;
-    margin: 20px 0px 20px 340px;
+    margin: 20px 0px 20px 20px;
 }
 
-.Item6 .SubCol2 {
+.Item5 .SubCol2 {
     width: 1239px;
     height: 50px;
     border-bottom: 1px solid gainsboro;
     padding: 10px 0px 10px 600px;
 }
 
-.Item6 ul {
-    list-style-type: none;
-} 
-
-.Item6 .list {
+.Item5 .orz {
     padding: 30px;
 }
 
-.Item6 ul h5 {
+.Item5 .orz h5{
     font-size: 20px;
     display: inline-block;
 }
 
-.Item6 .bottom {
-    padding: 30px 0px 90px 0px;
-}
-
-.Item6 ul h7 {
-    font-weight: bold;
-}
-
-.Item6 li a{
+.Item5 .orz a{
     color: white;
     text-decoration: none;
     cursor: pointer;
     background-color: rgb(55, 55, 252);
     padding: 10px 65px 10px 65px;
-    margin-left: 730px;
+    margin-left: 630px;
 }
 
-.Item6 li p{
+.Item5 .bottom {
+    padding: 30px 0px 40px 0px;
+}
+
+.Item5 .orz h7{
+    font-weight: bold;
+}
+
+.Item5 .orz p{
     width: 700px;
    text-align: left;
-}
-
-.Item6 li a:active {
-    color: black;
 }
 
 /* ------------------Riga 5--------------- */
@@ -415,7 +402,7 @@ li .drop:hover .dropdown-content {
 /* ------------------Riga 7--------------- */
 .Item10 {
     flex-basis: 100%;
-    padding: 90px 150px 0px 342px;
+    padding: 90px 150px 0px 240px;
 }
 
 .Item10 .block {
