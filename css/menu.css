@@ -346,6 +346,10 @@ li .drop:hover .dropdown-content {
    text-align: left;
 }
 
+.Item5 .orz a:active {
+    color: black;
+}
+
 /* ------------------Riga 5--------------- */
 .Item7 {
     flex-basis: 50%;
