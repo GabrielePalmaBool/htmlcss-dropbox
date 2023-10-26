@@ -367,7 +367,7 @@ li .drop:hover .dropdown-content {
 
 .Item7 img {
     width: 600px;
-    margin-left: 342px;
+    margin-left: 245px;
 }
 
 .Item8 {
@@ -415,7 +415,7 @@ li .drop:hover .dropdown-content {
 /* ------------------Riga 7--------------- */
 .Item10 {
     flex-basis: 100%;
-    padding: 150px 342px 10px 342px;
+    padding: 90px 150px 0px 342px;
 }
 
 .Item10 .block {
@@ -800,7 +800,7 @@ li .drop:hover .dropdown-content {
 /* ------------------Riga 10--------------- */
 .Item13 {
     flex-basis: 100%;
-    padding: 100px 0px 100px 342px;
+    padding: 100px 0px 50px 200px;
     background-color: rgb(180, 208, 231);
 }
 
