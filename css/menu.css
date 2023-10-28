@@ -233,19 +233,21 @@ li .drop:hover .dropdown-content {
 
 .Item5 .vert li {
     text-align: left;
-    margin: 10px 0px 5px 10px;
-    width: 350px;
-    position: relative;
+    margin: 50px 0px 60px 10px;
+   
 }
 
 .Item5 .vert p{
-   text-align: left;
-   margin: 0px 0px 20px 25px;
+   margin: -20px 0px 0px 25px;
+   width: 250px;
+   font-size: 17px;
+}
+.Item5 .vert span {
+    margin-left: -15px;
 }
 
 .Item5 .vert i{
-    position: absolute;
-    left: 0;
+    margin-left: -15px;
     font-size: 17px;
 }
 
@@ -253,9 +255,6 @@ li .drop:hover .dropdown-content {
     color: rgb(0, 97, 255);
 }
 
-.Item5 .vert .bottom1 {
-    padding-top: 20%;
-}
 
 .Item5 .vert .button1{
     color: white;
@@ -263,7 +262,7 @@ li .drop:hover .dropdown-content {
     cursor: pointer;
     background-color: rgb(55, 55, 252);
     padding: 10px 65px 10px 65px;
-    margin-left: 40px;
+   
 }
 
 .Item5 .vert .button2 {
@@ -309,7 +308,7 @@ li .drop:hover .dropdown-content {
     cursor: pointer;
     background-color: rgb(55, 55, 252);
     padding: 10px 65px 10px 65px;
-    margin-left: 730px;
+    margin-left: 565px;
 }
 
 .Item5 .bottom {
